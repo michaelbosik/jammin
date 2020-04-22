@@ -8,7 +8,7 @@ html h1 {
   padding-bottom: 20px;
 }
 html h2 {
-  color: #1C444F;
+  color: #e8f1ff;
   font-size: 25px;
   padding: 10px;
 }
@@ -41,12 +41,43 @@ html .imgWrapper {
 }
 
 .info {
+  padding-top: 50px;
   margin: 0 auto;
   display: block;
   min-height: 100vh;
   width: 100%;
   font: "Source Sans Pro", sans-serif;
   text-align: center;
+}
+
+.gameInfo {
+  background-color: #4876AB;
+  margin: auto;
+  padding: 20px;
+}
+.gameInfo .button {
+  width: 200px;
+  height: 80px;
+  border: 2px solid #1C444F;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.gameInfo .button.download {
+  background-color: #7ab8ff;
+  transition: 0.25s;
+}
+.gameInfo .button.download:hover {
+  background-color: #C6E4DC;
+  cursor: pointer;
+  transition: 0.25s;
+}
+.gameInfo .button h1 {
+  align-self: center;
+  padding-bottom: 0px;
+  font-size: 30px;
 }
 
 .document.treatment {
