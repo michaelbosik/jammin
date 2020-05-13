@@ -111,6 +111,14 @@ html{
     }
 }
 
+.trailer{
+    background-color: $secondary;
+    padding: 20px;
+    .video{
+        text-align: center;
+    }
+}
+
 .about{
     text-align: center;
     background-color: $light;

@@ -100,6 +100,14 @@ html .imgWrapper {
   font-size: 30px;
 }
 
+.trailer {
+  background-color: #4876AB;
+  padding: 20px;
+}
+.trailer .video {
+  text-align: center;
+}
+
 .about {
   text-align: center;
   background-color: #e8f1ff;
