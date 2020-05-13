@@ -8,7 +8,7 @@ html h1 {
   padding-bottom: 20px;
 }
 html h2 {
-  color: #e8f1ff;
+  color: #4876AB;
   font-size: 25px;
   padding: 10px;
 }
@@ -41,56 +41,67 @@ html .imgWrapper {
 }
 
 .info {
-  padding-top: 50px;
   margin: 0 auto;
   display: block;
   min-height: 100vh;
   width: 100%;
   font: "Source Sans Pro", sans-serif;
-  text-align: center;
+}
+.info .banner {
+  height: 100vh;
+}
+.info .banner .bannerimage {
+  background-image: url("../images/mainbanner.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.info .banner .bannerimage .bannertitle {
+  color: #e8f1ff;
+  font-size: 120px;
+  position: absolute;
+  right: 100px;
+  top: 50px;
 }
 
-.gameInfo {
-  background-color: #4876AB;
-  margin: auto;
-  padding: 20px;
+.downloadbuttons {
+  position: absolute;
+  left: 200px;
+  top: 200px;
 }
-.gameInfo .button {
-  width: 200px;
-  height: 80px;
+.downloadbuttons h3 {
+  width: 100%;
+  text-align: center;
+  color: #C6E4DC;
+  font-size: 50px;
+}
+.downloadbuttons .button {
+  width: 400px;
+  height: 100px;
   border: 2px solid #1C444F;
   border-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin-top: 50px;
 }
-.gameInfo .button.download {
+.downloadbuttons .button.download {
   background-color: #7ab8ff;
   transition: 0.25s;
 }
-.gameInfo .button.download:hover {
+.downloadbuttons .button.download:hover {
   background-color: #C6E4DC;
   cursor: pointer;
   transition: 0.25s;
 }
-.gameInfo .button h1 {
+.downloadbuttons .button h1 {
   align-self: center;
   padding-bottom: 0px;
   font-size: 30px;
 }
 
-.document.treatment {
-  margin: auto;
-  width: 100%;
-  height: 800px;
-}
-.document.treatment iframe {
-  height: 700px;
-  width: 400px;
-}
-
 .about {
+  text-align: center;
   background-color: #e8f1ff;
   padding: 20px;
 }
@@ -115,13 +126,8 @@ html .imgWrapper {
   display: block;
   padding: 20px;
 }
-.contact i {
-  padding: 20px;
-  font-size: 3em;
-  color: #1C444F;
-}
-.contact img {
-  height: 80px;
+.contact p {
+  font-size: 15px;
 }
 
 @media screen and (min-width: 530px) {
